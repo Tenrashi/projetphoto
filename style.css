@@ -2,7 +2,7 @@
 
     position:relative;
 
-    height:200px;
+    height:400px;
 
     width:700px;
 
@@ -18,12 +18,14 @@
 
     left:0;
 
-    height:200px;
-
-    width:700px;
-
 }
 
 ul{
 	list-style-type: none;
+}
+
+.img1{
+width:1000px;
+height:400px;
+
 }
