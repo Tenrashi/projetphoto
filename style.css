@@ -1,8 +1,8 @@
 #nav {
+
   text-align: center;
   background-color: rgba(225,225,225,0.5);
-  margin-left: 400px;
-  margin-right: 400px;
+  margin-top: 20px;
  }
 
 #nav li {
@@ -25,3 +25,35 @@
    background-color: #2D89E5;
    color:white;
   }
+
+  h1 {
+
+  }
+
+  #texteaccueil{
+    text-align: center;
+  }
+
+  hr {
+    width: 300px;
+    color: #2d6aa7;
+  }
+
+  .texteactualite {
+    text-align: justify;
+  }
+
+  #btnsociaux {
+    margin-left: 150px;
+  }
+
+  #btnsociaux a {
+    margin: 0px 100px 0px;
+    padding: 10px 10px 10px;
+  }
+
+footer {
+  text-align: center;
+}
+
+.container {border: solid red;}
