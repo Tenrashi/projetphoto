@@ -1,15 +1,18 @@
+<<<<<<< HEAD
 #nav {
   text-align: center;
   background-color: #ffffff;
-  margin-top: 20px;
+  padding:10px;
   border: solid #dfdfdf;
   border-radius: 8px;
+
  }
 
 
 #nav li {
    list-style: none;
    display: inline-block;
+   margin-top:28px;
  }
 
 
@@ -19,8 +22,8 @@
    font-family:arial;
    text-transform: uppercase;
    font-weight: bold;
-   margin: 0px 20px 0px;
-   padding: 9px 80px 9px;
+   margin: 0px 10px 0px;
+   padding: 9px 50px 9px;
    text-decoration: none;
    font-family: 'Josefin Sans', sans-serif;
   }
@@ -106,9 +109,12 @@ footer {
 }
 
 
-.container {border: solid red;}
+
 
   
+
+  <style>
+
     body {
       -webkit-font-smoothing: antialiased;
       font: normal 15px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -218,24 +224,8 @@ footer {
     .navbar {
       overflow: hidden
     }
+<<<<<<< HEAD
   
 
-    #slides {
-      display: none
-    }
 
-    .container {
-      margin: 0 auto
-    }
-
-    /* For tablets & smart phones */
-    @media (max-width: 767px) {
-      body {
-        padding-left: 20px;
-        padding-right: 20px;
-      }
-      .container {
-        width: auto
-      }
-    }
 
