@@ -1,43 +1,47 @@
 
 #nav {
-  text-align: center;
-  background-color: #ffffff;
-  margin-top: 20px;
-  border: solid #dfdfdf;
-  border-radius: 8px;
- }
+text-align: center;
+background-color: #FFFFFF;
+padding:5px;
+border: solid #DFDFDF;
+border-radius: 8px;
+}
 
 
 #nav li {
-   list-style: none;
-   display: inline-block;
- }
+list-style: none;
+display: inline-block;
+
+}
 
 
 #nav a {
-   color:  #a6a6a6;
-   display: block;
-   font-family:arial;
-   text-transform: uppercase;
-   font-weight: bold;
-   margin: 0px 20px 0px;
-   padding: 9px 80px 9px;
-   text-decoration: none;
-   font-family: 'Josefin Sans', sans-serif;
-  }
+color: #A6A6A6;
+display: block;
+font-family:arial;
+text-transform: uppercase;
+font-weight: bold;
+padding: 10px 50px 10px;
+text-decoration: none;
+font-family: 'Josefin Sans', sans-serif;
+}
 
 
 #nav a:hover {
-   background-color: #dfdfdf;
-   color:white;
-  }
+background-color: #DFDFDF;
+color:white;
+border-radius: 5px;
+}
 
 
-  h1 {
-    font-size: 300%;
-    text-align: center;
-    font-family: 'Lobster', cursive;
-  }
+h1 {
+font-size: 300%;
+text-align: center;
+font-family: 'Lobster', cursive;
+margin-top: 2px;
+
+}
+
 
 
   h2 {
@@ -100,11 +104,158 @@
     height: 60px;
   }
 
+body {
+      -webkit-font-smoothing: antialiased;
+      font: normal 15px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+      color: #232525;
+      padding-top:70px;
+    }
 
+    #slides {
+      display: none
+    }
 
-footer {
-  text-align: center;
+    #slides .slidesjs-navigation {
+      margin-top:5px;
+    }
+
+    a.slidesjs-next,
+    a.slidesjs-previous,
+    a.slidesjs-play,
+    a.slidesjs-stop {
+      background-image: url(https://imgur.com/8ZhxB5I.jpg);
+      background-repeat: no-repeat;
+      display:block;
+      width:12px;
+      height:18px;
+      overflow: hidden;
+      text-indent: -9999px;
+      float: left;
+      margin-right:5px;
+    }
+
+    a.slidesjs-next {
+      margin-right:10px;
+      background-position: -12px 0;
+    }
+
+    a:hover.slidesjs-next {
+      background-position: -12px -18px;
+    }
+
+    a.slidesjs-previous {
+      background-position: 0 0;
+    }
+
+    a:hover.slidesjs-previous {
+      background-position: 0 -18px;
+    }
+
+    a.slidesjs-play {
+      width:15px;
+      background-position: -25px 0;
+    }
+
+    a:hover.slidesjs-play {
+      background-position: -25px -18px;
+    }
+
+    a.slidesjs-stop {
+      width:18px;
+      background-position: -41px 0;
+    }
+
+    a:hover.slidesjs-stop {
+      background-position: -41px -18px;
+    }
+
+    .slidesjs-pagination {
+      margin: 7px 0 0;
+      float: right;
+      list-style: none;
+    }
+
+    .slidesjs-pagination li {
+      float: left;
+      margin: 0 1px;
+    }
+
+    .slidesjs-pagination li a {
+      display: block;
+      width: 13px;
+      height: 0;
+      padding-top: 13px;
+      background-image: url(https://imgur.com/LCkVNRY.jpg);
+      background-position: 0 0;
+      float: left;
+      overflow: hidden;
+    }
+
+    .slidesjs-pagination li a.active,
+    .slidesjs-pagination li a:hover.active {
+      background-position: 0 -13px
+    }
+
+    .slidesjs-pagination li a:hover {
+      background-position: 0 -26px
+    }
+
+    #slides a:link,
+    #slides a:visited {
+      color: #333
+    }
+
+    #slides a:hover,
+    #slides a:active {
+      color: #9e2020
+    }
+
+    .navbar {
+      overflow: hidden
+    }
+
+#footer{
+  background-image: url("http://medias3-2.ubaldi.com/guides/24/images/banniere.jpg");
+  border-radius: 4px;
+
+}
+
+.ex, .num{
+  color: white;
+  font-family: 'Cinzel', serif;
+  
+}
+
+.ex:hover{
+  color:#8C8989;
+  text-decoration: none;
+}
+
+.cont{
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 120%;
+}
+
+#submit_button{
+  background-color:#E9E6E6;
+  color: #4F4F4F;
+  border-radius: 6px;
+  box-shadow: -1px 2px 2px 1px rgba(0, 0, 0, 0.7); 
+  font-family: 'Cinzel', cursive;
+}
+
+#submit_button2{
+  background-color:#E9E6E6;
+  color: #4F4F4F;
+  border-radius: 6px;
+  box-shadow: -1px 2px 2px 1px rgba(0, 0, 0, 0.7);
+  font-family: 'Cinzel', serif;
 }
 
 
-.container {border: solid red;}
+.tt{
+  width: 390px;
+  height: 200px;
+}
+>>>>>>> dev
