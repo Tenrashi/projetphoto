@@ -1,10 +1,12 @@
 h1 {
   font-family: 'Lobster', cursive;
+  text-align: center;
 }
 
 
 p {
   text-align: center;
+  font-size: 130%;
   font-family: 'Lato', sans-serif;
 }
 
