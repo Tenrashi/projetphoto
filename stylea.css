@@ -163,27 +163,3 @@ hr {
         width: 100%;
     }
 }
-
-
-#footer{
-background-image: url("http://medias3-2.ubaldi.com/guides/24/images/banniere.jpg");
-border-radius: 4px;
-margin-bottom: 4px;
-}
-
-.ex, .num{
-color: white;
-font-family: 'Cinzel', serif;
-
-}
-
-.ex:hover{
-color:#8C8989;
-text-decoration: none;
-}
-
-.cont{
-color: white;
-font-family: 'Josefin Sans', sans-serif;
-font-size: 120%;
-}
